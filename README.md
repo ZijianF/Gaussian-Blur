@@ -15,4 +15,5 @@ It takes three command line arguments to operate:
 
 The .cu file is the multithread version which utilizes a GPU for computation.
 It needs to be compiled using nvcc, which is almost the same as gcc excpet that you need to prefix all of the compiler flags with **-Xcompiler**
+
 Example: $ nvcc -Xcompiler -Wall -Xcompiler -Werror ... -o gaussian_blur_cuda gaussian_blur_cuda.cu -lm
