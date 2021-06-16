@@ -5,7 +5,7 @@ A Gaussian blur is a 2-D convolution operator that is used to blur images in ord
 
 Technically, a Gaussian blur is represented as a matrix of weights, also called kernel or mask. The convolution is the process of adding each pixel of the image to its local neighbors, weighted by the matrix.
 
-##How to use##
+## How to use ##
 There are two files, the .c file is the code for the serial version of the program which only utilizes one cpu core to do serial computation. It shows basic implementation of Gaussian Blur.
 The .c version can be compiled using genuine C compiler.
 It takes three command line arguments to operate:
