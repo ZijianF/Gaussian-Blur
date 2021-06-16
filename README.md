@@ -12,4 +12,7 @@ It takes three command line arguments to operate:
 1. The first argument specifies the name of the input binary PGM file.
 2. The second argument specifies the name of the output (post-processed) binary PGM file.
 3. The third argument specifies the sigma value to use for the blur. The sigma value should be considered valid only it’s greater than 0 and if the order of the resulting kernel matrix is not bigger than the input image’s width or height.
+
 The .cu file is the multithread version which utilizes a GPU for computation.
+It needs to be compiled using nvcc, which is almost the same as gcc excpet that you need to prefix all of the compiler flags with **-Xcompiler**
+Example: $ nvcc -Xcompiler -Wall -Xcompiler -Werror ... -o gaussian_blur_cuda gaussian_blur_cuda.cu -lm
