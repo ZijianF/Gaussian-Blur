@@ -1,1 +1,2 @@
 # Gaussian-Blur
+## Introduction ##
