@@ -1,5 +1,5 @@
 # Gaussian-Blur
-
+**All files are in the main branch.
 ## Introduction ##
 A Gaussian blur is a 2-D convolution operator that is used to blur images in order to reduce detail and noise.
 
